@@ -1,0 +1,7 @@
+What happends when you intialize a repository? Why should you need to do it?
+
+It creates a place that you can use git commands. You should do this because you want to use git commands on your files for easy version control. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It's a virtual area that doesn't exist on disk or in git. It's useful because you can review what you're going to commit before you actually do it, helpful so that you don't commit something you don't need to and have to remedy that. 
