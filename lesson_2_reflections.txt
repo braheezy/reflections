@@ -17,3 +17,7 @@ When you want to intoduce something to the code that is experimental or your jus
 How do the diagrams help you visualize the branch structure?
 
 The diagram looks like a tree, with distinct branches that don't intersect until the branch was made. This intersection is the last commit the two branches had in common. It also shows the parent relationship between commits, whereby moving back in the branch is to move up parents. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It effectively removes the label of one branch and lets the branch it's being merged into obtain all the commits and its meta data, making it seemingly one branch again. It's represented as such in the diagram because they are now considered one entity instead of two. 
