@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keepiong all your work local?
+
+When you want to get your files into the cloud, for access anywhere by anyone, including yourself
