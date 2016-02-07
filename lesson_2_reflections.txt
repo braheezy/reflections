@@ -21,3 +21,8 @@ The diagram looks like a tree, with distinct branches that don't intersect until
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 It effectively removes the label of one branch and lets the branch it's being merged into obtain all the commits and its meta data, making it seemingly one branch again. It's represented as such in the diagram because they are now considered one entity instead of two. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Pros: Easily combine new features to working code base. 
+Cons: Blindly guessing when to merge can cause problems, hence why we use manually merging sometimes.
