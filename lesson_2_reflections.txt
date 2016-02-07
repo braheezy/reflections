@@ -5,3 +5,7 @@ It creates a place that you can use git commands. You should do this because you
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It's a virtual area that doesn't exist on disk or in git. It's useful because you can review what you're going to commit before you actually do it, helpful so that you don't commit something you don't need to and have to remedy that. 
+
+How can you use the staging area to make sure you gave one commit per logical change?
+
+You can use the diff --staged command to compare it the commit and verify it is indeed one logical change
