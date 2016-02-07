@@ -13,3 +13,7 @@ You can use the diff --staged command to compare it the commit and verify it is 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When you want to intoduce something to the code that is experimental or your just not ready to fully commit to, no pun intended. 
+
+How do the diagrams help you visualize the branch structure?
+
+The diagram looks like a tree, with distinct branches that don't intersect until the branch was made. This intersection is the last commit the two branches had in common. It also shows the parent relationship between commits, whereby moving back in the branch is to move up parents. 
